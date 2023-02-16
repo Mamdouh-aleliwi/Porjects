@@ -1,0 +1,114 @@
+body{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6) , rgba(0, 0, 0, 0.5)), url(ogo1.png);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Lemonada';
+ }
+  .container{
+    grid-template-columns: 1fr; 
+    display: grid;
+  }
+  .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin: -8px;
+    background: #dad9d9;
+    height: 100px;
+  }
+  .header img {
+    margin-top: 6%;
+  }
+  div ul {
+    list-style: none;
+    width: auto;
+    margin: 10px 90px;  
+    overflow: auto;
+   }
+   div ul li {
+    padding: 10px 40px;
+   }
+   div ul li:hover{
+    border:1px solid #272133;
+   }
+   div ul li a {
+      text-decoration: none;
+      color: #000;
+      font-size: 15px;
+   }
+  .box{
+    margin-top: 0;
+    margin-left: 41%;
+    border-radius: 4px;
+    padding: 8px 0px 50px 0px;
+  }
+  .te{
+    background: #ccc;
+    border: #ccc 1px solid;
+    padding: 10px;
+    width: 219px;
+    border-radius: 4px;
+  
+    }
+  .label{
+    font-size: 20px;
+    margin-left: 46%;
+    margin-top: 10%;
+    color:#fff;
+  }
+  .text{
+    background:#ccc;
+    border: #ccc 1px solid;
+    padding: 20px;
+    width:200px;
+    height: 0px;
+    color:black;
+    margin-top:5px;
+    font-size:1em;
+    border-radius:4px;
+    text-align: right;
+  }
+  .submit{
+    text-align: center;
+    font-size:1.4em;
+    border-radius:4px;
+    margin:15px;
+    width:100px;
+    border-width: 0px;
+    border-style: solid;
+    border-color: currentColor;
+    margin-left: 10%;
+    background: #fff;
+  }
+  footer {
+    background: rgba(214, 214, 214, 0.918);
+    height: 150px;
+    width: auto;
+    overflow: auto;
+    margin: -8px;
+  }
+  .nav1 ul li{
+    margin-left: 167px;
+  }
+  .nav1 li{
+    list-style: none;
+    display: inline-flex; 
+    margin-left: 240px;
+  }
+  .nav1 a {
+     text-decoration: none; 
+     color: #000;
+    font-size: 20px;
+  }
+  #p1{
+    text-align: center;
+    font-size: 14px;
+    margin: 3px;
+  }
+  #p2{
+    text-align: center;
+    font-size: 11px;
+    margin: 2px;
+  }

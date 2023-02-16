@@ -1,0 +1,126 @@
+body{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6) , rgba(0, 0, 0, 0.5)),url(ogo1.png);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Lemonada';
+    margin-top: 0;     
+    }
+    .header{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: relative;
+      margin: -8px;
+      background: #d9d9d9;
+      height: 100px;
+    }
+    .header img {
+      margin-bottom: -15%;
+    }
+    .container {
+      grid-template-columns: 1fr;
+      margin-left: 125px;
+      justify-content: center;
+      align-items: center;
+      height: auto;
+      width: auto;
+    }
+    .container {
+      grid-template-columns: 1fr;
+      margin-left: 125px;
+      justify-content: center;
+      align-items: center;
+      height: auto;
+      width: auto;
+    }
+    .card {
+      margin-left: 10%;
+      width: 750px;
+      height: auto;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      height: 100;
+      border-radius: 5px;
+      flex-direction: column;
+      align-items: center;
+      color: rgb(14, 13, 13);
+      background: rgba(181, 181, 185, 0.562);
+    }
+    .card1 {
+      margin-left: 20%;
+      width: 750px;
+      height: auto;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      border-radius: 5px;
+      flex-direction: column;
+      align-items: center;
+      color: rgb(14, 13, 13);
+    
+    }
+    .card h2{
+      color: #fff;
+      margin-bottom: -30px;
+    }
+    .submit{
+      text-align: center;
+      background: #ccc;
+      border: #ccc solid;
+      margin: 5px;
+    }
+    .g{
+      width:auto;
+      height: auto;
+    }
+    div ul{
+      list-style: none;
+      width: auto;
+      margin: 10px ;  
+      overflow: auto;
+    }
+    div ul li  {
+      display: inline-block;
+      padding: 10px 40px;
+    }
+    div ul li:hover{
+      border:1px solid #272133;
+    }
+    div ul li a {
+      text-decoration: none;
+      font-size: 15px;
+      color: #000;
+    }
+    .box{
+      height: auto;
+    }
+    footer {
+      background: rgba(214, 214, 214, 0.918);
+      height: 150px;
+      width: auto;
+      overflow: auto;
+      margin: -8px;
+    }
+    .nav1 ul li{
+      margin-left: 167px;
+    }
+    .nav1 li{
+      list-style: none;
+      display: inline-flex; 
+      margin-left: 165px;
+    }
+    .nav1 a {
+       text-decoration: none; 
+       color: #000;
+      font-size: 20px;
+    }
+    #p1{
+      text-align: center;
+      font-size: 14px;
+      margin: 3px;
+    }
+    #p2{
+      text-align: center;
+      font-size: 11px;
+      margin: 2px;
+    }
